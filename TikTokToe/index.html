@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    <title>Tictactoe</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>TikTokToe</title>
+    <link rel="shortcut icon" href="./img/xo.png"/>
   </head>
   <body>
     <div id="app">
@@ -21,7 +22,7 @@
             ></div>
             <div class="player_item--infor">
               <div class="point_title">
-                <span class="">Scores</span>
+                <span class="">Score</span>
               </div>
               <div class="count_point"><span class="blue_score">0</span></div>
             </div>
@@ -33,17 +34,17 @@
             ></div>
             <div class="player_item--infor">
               <div class="point_title">
-                <span class="">Scores</span>
+                <span class="">Score</span>
               </div>
               <div class="count_point"><span class="red_score">0</span></div>
             </div>
           </div>
         </div>
         <div id="btn_reset_game">
-          <span id="btn_reset">RESTART</span>
+          <span id="btn_reset">Restart</span>
         </div>
         <div id="note">
-          <span> * Note: </span>
+          <span> * NOTE: </span>
           <div class="note_item">
             <span>- X là người luôn được đánh đầu tiên.</span>
           </div>
@@ -65,11 +66,10 @@
           <div class="caro_item"></div>
         </div>
       </div>
-
       <div class="overlay_wraper">
         <div id="overlay_main">
           <div id="overlay_title">
-            <h1>Win!</h1>
+            <h1>WIN</h1>
           </div>
           <div id="player_win">
             <h3 class="player_message"></h3>
@@ -80,6 +80,6 @@
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
+    <script src="./game.js"></script>
   </body>
 </html>
