@@ -262,6 +262,7 @@ const handleYouWinOrNot = (player = "", indexChoose) => {
     }
   }
   return "";
+};
 const handleCheckWin = () => {
   const blue_scoreTemp = +blue_score.textContent;
   const red_scoreTemp = +red_score.textContent;
